@@ -1,4 +1,5 @@
-    
+# Make sure the madlibs.txt file is in the same folder as madlibs.py before you try to run this code
+
 import random
  
 # Open the Mad Libs text file
