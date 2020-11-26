@@ -1,2 +1,2 @@
 # 42_project_challenge
-# UPDATE: 5/42 COMPLETED
+# UPDATE: 6/42 COMPLETED
