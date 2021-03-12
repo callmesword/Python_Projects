@@ -35,6 +35,9 @@ while user != 'exit':
 	if user == 'pass':
 		print("your password is:",string.capwords(password()))
 		user = str(input("==> "))
+	elif user != "pass":
+		print("invalid input! please enter 'Pass' or 'exit'")
+		user = str(input("==> "))
 else:
 	if user == 'exit':
 		print("+------------------------------+")
