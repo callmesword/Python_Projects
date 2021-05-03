@@ -29,15 +29,15 @@ print("| Type 'pass' to generate a password and 'exit' to exit the program |")
 print("+-------------------------------------------------------------------+")
 
 
-user = str(input("==> "))
+user = input("==> ")
     
 while user != 'exit':
 	if user == 'pass':
 		print("your password is:",string.capwords(password()))
-		user = str(input("==> "))
+		user = input("==> ")
 	elif user != "pass":
 		print("invalid input! please enter 'Pass' or 'exit'")
-		user = str(input("==> "))
+		user = input("==> ")
 else:
 	if user == 'exit':
 		print("+------------------------------+")
