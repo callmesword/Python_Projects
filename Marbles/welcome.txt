@@ -1,0 +1,6 @@
+
+        +------------------>>> WELCOME <<-----------------+
+        | In this game, you can choose between 2 modes.   |
+        | MODE 1: Always compete against the computer.    |
+        | MODE 2: Play 1 v 1 with your friend.            |
+        +---------------->>> GOOD LUCK! <<<---------------+

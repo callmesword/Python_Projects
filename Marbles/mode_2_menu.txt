@@ -1,0 +1,6 @@
+	
+	+----------------------------------->>>>WELCOME TO MODE 2 <<<<----------------------------------+
+	| - In this mode, you're playing against an other player.                                       |
+	| - Each one of you needs to guess if the other player's marbels they hid is even or odd.       |
+	| - The right guess gets the bet.                                                               |
+	+----------------------------------- >>>>> GOOD LUCK <<<<---------------------------------------+

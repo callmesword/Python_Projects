@@ -1,0 +1,6 @@
+
++----------------------------------->>>> WELCOME TO MODE 1 <<<<---------------------------------+
+| - In this mode, you're playing against the computer all the time.                             |
+| - The computer needs to guess if the number of marbels you hid is even or odd.                |
+| - If the computer guess right, you lose the bet and computer gets it.                         |
++-------------------------------------->>>>> GOOD LUCK <<<<<------------------------------------+
