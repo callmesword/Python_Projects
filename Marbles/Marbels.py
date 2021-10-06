@@ -57,7 +57,6 @@ def winner(pl_name):
 
 def print_menu(file_name):
 	print("\n"*100)
-	#reads the text from mode_1_menu.txt
 	file = open(file_name,'r')
 	with file as reader:
 		line = reader.readline()
