@@ -3,6 +3,7 @@
 #  GITHUB : https://github.com/callmesword                                                                  #
 #  CREDITS : HUGE THANK YOU TO MOUNIR SABIR AND AYOUB ESSABIRY FOR HELPING ME DEVOLOP THIS PROJECT.         #
 #  DESCRIPTION : THIS GAME IS INSPIRED BY THE GAME IN THE 6TH EPISODE OF SQUID GAME.                        #
+#  NOTE : DO NOT FORGET TO PUT ALL TXT FILES ALONG WITH THE Marbles.py FILE IN ONE FOLDER.                  #
 #############################################################################################################
 
 
