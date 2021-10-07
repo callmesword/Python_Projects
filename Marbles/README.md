@@ -22,7 +22,8 @@ the game starts by asking you to hide a certain amount of marbles of your choice
 - Same thing happens if the computer is wrong. you take their marbels if you hid a greater amount and you take the amount of marbels they hid if its less or eqaul to the amount you hid. 
 
 
-![Screen Shot 2021-10-07 at 19 11 10](https://user-images.githubusercontent.com/61026156/136439889-21709c23-886b-4deb-ba84-5c9c4a123d38.png)
+
+![Screen Shot 2021-10-07 at 19 11 54](https://user-images.githubusercontent.com/61026156/136440003-b98bee77-01ba-4415-9fa0-7cd4a55dea93.png)
 
 
 EXAMPLE:
