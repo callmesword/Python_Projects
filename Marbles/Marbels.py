@@ -1,13 +1,3 @@
-#############################################################################################################
-#  AUTHOR : HOUSSAM LAHYANI                                                                                 #
-#  GITHUB : https://github.com/callmesword                                                                  #
-#  CREDITS : HUGE THANK YOU TO MOUNIR SABIR AND AYOUB ESSABIRY FOR HELPING ME DEVOLOP THIS PROJECT.         #
-#  DESCRIPTION : THIS GAME IS INSPIRED BY THE GAME IN THE 6TH EPISODE OF SQUID GAME.                        #
-#  NOTE : DO NOT FORGET TO PUT ALL TXT FILES ALONG WITH THE Marbles.py FILE IN ONE FOLDER.                  #
-#############################################################################################################
-
-
-
 import sys
 import random
 import time
@@ -57,6 +47,7 @@ def winner(pl_name):
 
 def print_menu(file_name):
 	print("\n"*100)
+	#reads the text from mode_1_menu.txt
 	file = open(file_name,'r')
 	with file as reader:
 		line = reader.readline()
@@ -136,6 +127,7 @@ def mode_1():
 			
 				print("\n            >>>>> COMPUTER IS RIGHT ! <<<<<")
 				print("              >>>>>>>>>>>>>>>><<<<<<<<<<<")
+				print("\nCOMPUTER GUESS :",com_guess.upper())
 				print("\nCOMPUTER HID {} MARBELS.".format(com_marbs))
 				print("\nYOU: {} marbles left | COMPUTER: {} marbles left.".format(pl,com))
 			
@@ -150,6 +142,7 @@ def mode_1():
 			
 				print("\n            >>>>> COMPUTER IS WRONG ! <<<<<")
 				print("              >>>>>>>>>>>>>>>><<<<<<<<<<<")
+				print("\nCOMPUTER GUESS :",com_guess.upper())
 				print("COMPUTER HID {} MARBLES.".format(com_marbs))
 				print("\nYOU: {} marbles left | COMPUTER: {} marbles left.".format(pl,com))
 		else:
