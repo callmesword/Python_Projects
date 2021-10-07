@@ -27,9 +27,23 @@ the game starts by asking you to hide a certain amount of marbles of your choice
 
 
 EXAMPLE:
-
-- You hide 7 and the computer hide 5. 
+<<< IF THE COMPUTER IS RIGHT >>>
+- You hide 7 and the computer hide 8. 
 - Computer guess : ODD
 - in this case the computer is right.
-- YOU : 10 - 5 
-- COMPUTER : 10 + 5
+- YOU : 10 - 7 
+- COMPUTER : 10 + 7
+
+![Screen Shot 2021-10-07 at 19 15 05](https://user-images.githubusercontent.com/61026156/136440361-4991344a-f985-4c61-8137-9b116b2fcd59.png)
+
+<<< IF THE COMPUTER IS WRONG >>>
+
+![Screen Shot 2021-10-07 at 19 17 25](https://user-images.githubusercontent.com/61026156/136440633-7f872d20-2d3e-4bf5-9daf-0d7d8ad4d402.png)
+
+<<< IF THE COMPUTER IS WRONG >>>
+
+- You hide 9 and the computer hide 3. 
+- Computer guess : EVEN
+- in this case the computer is wrong.
+- YOU : 10 + 3 
+- COMPUTER : 10 - 3
