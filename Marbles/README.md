@@ -10,7 +10,8 @@ There are 2 modes:
 - In the first mode, you play against the computer and try to get all their 10 marbles in order to win.
 the game starts by asking you to hide a certain amount of marbles of your choice as long as you have enough. for example if you chose 5 but you only have 6 left, the program asks you to choose a number less or equal to 5.
 
-![Screen Shot 2021-10-07 at 18 45 52](https://user-images.githubusercontent.com/61026156/136437652-59899098-b089-461f-a92e-87f2456d5fde.png)
+![Screen Shot 2021-10-07 at 18 59 41](https://user-images.githubusercontent.com/61026156/136438456-3e2c17bc-1621-4151-babb-63f91c0bbf24.png)
+
 
 - the computer then guesses if the number you hid is even or odd.
 
