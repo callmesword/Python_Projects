@@ -36,7 +36,6 @@ EXAMPLE:
 
 ![Screen Shot 2021-10-07 at 19 15 05](https://user-images.githubusercontent.com/61026156/136440361-4991344a-f985-4c61-8137-9b116b2fcd59.png)
 
-<<< IF THE COMPUTER IS WRONG >>>
 
 ![Screen Shot 2021-10-07 at 19 17 25](https://user-images.githubusercontent.com/61026156/136440633-7f872d20-2d3e-4bf5-9daf-0d7d8ad4d402.png)
 
@@ -47,3 +46,19 @@ EXAMPLE:
 - in this case the computer is wrong.
 - YOU : 10 + 3 
 - COMPUTER : 10 - 3
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+- The logic is the same in mode 2 but in this mode, 2 players play against each other.
+
+![Screen Shot 2021-10-07 at 19 21 51](https://user-images.githubusercontent.com/61026156/136441126-5e8a2c97-2dc9-4d4c-907c-652393aedb53.png)
+
+
+![Screen Shot 2021-10-07 at 19 22 39](https://user-images.githubusercontent.com/61026156/136441221-22a9e284-5bcf-4077-be32-07ca5d62dda6.png)
+
+
+![Screen Shot 2021-10-07 at 19 23 47](https://user-images.githubusercontent.com/61026156/136441361-48c332a8-b17a-49ca-9091-4234b45774e6.png)
+
+- in this scenario, player 2 won because both hid all their marbles and player 2 guessed right.
+
