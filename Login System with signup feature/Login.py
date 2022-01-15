@@ -10,20 +10,17 @@ def update_database(data, filename="data_base.json"):
 		js_load["users"].append(data)
 		json.dump(js_load, file, indent = 4)
 
-def  check_data(user, database):
-	for i in database["users"]:
-		if user in i:
-			return True
-		else:
-			return False
+def  check_data(database, user):
+	for data in database["users"]:
+		for usr in data.keys():
+			if usr == user:
+				return True
 
 def check_password(data, username, password):
 	for ls in data["users"]:
-		for user in ls:
-			if ls[username] == password:
+		for user,pin in ls.items():
+			if user == username and password == pin:
 				return True
-			else:
-				return False
 
 def signup():
 	data = {}
@@ -35,7 +32,7 @@ def signup():
 
 def authenticate(data):
 	username = input("USERNAME: ")
-	if check_data(username, data):
+	if check_data(data,username):
 		password = input("PASSWORD: ")
 		if check_password(data, username, password):
 			print(" <<ACCESS GRANTED !>>")
@@ -51,8 +48,3 @@ def authenticate(data):
 			authenticate(data)
 
 authenticate(data)
-
-
-
-
-
