@@ -12,7 +12,7 @@ def common_word(dictt):
 			print(word)
 
 
-with open("text.txt") as txt:
+with open("file.txt") as txt:
 	txt = txt.readlines()
 	words_dict = {}
 	for sentence in txt:
