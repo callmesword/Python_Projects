@@ -6,10 +6,13 @@ def common_word(dictt):
 	for element in dictt:
 		if dictt[element] > 1:
 			common.append(element)
-	return common
+	#return common
+	for word in common:
+		if word != '':
+			print(word)
 
 
-with open("string.txt") as txt:
+with open("text.txt") as txt:
 	txt = txt.readlines()
 	words_dict = {}
 	for sentence in txt:
@@ -20,4 +23,7 @@ with open("string.txt") as txt:
 			else:
 				words_dict[word] += 1
 
-print("These words appeared more than once:\n",common_word(words_dict))
+print("These words appeared more than once:\n")
+print("----------------")
+common_word(words_dict)
+print("----------------")
